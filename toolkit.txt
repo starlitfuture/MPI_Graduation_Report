@@ -1,0 +1,43 @@
+import pandas as pd
+from urllib import request
+import requests
+import simplejson as json
+import json
+import os, fnmatch
+from bs4 import BeautifulSoup as bs
+import time, datetime
+import execjs
+import numpy as np
+import matplotlib.pyplot as plt
+import psycopg2
+import ast
+import jieba
+import jieba.analyse
+import jieba.posseg as pseg
+from wordcloud import WordCloud
+from textwrap import wrap
+from pypinyin import pinyin, lazy_pinyin, Style
+from sklearn.feature_extraction.text import TfidfVectorizer
+import subprocess
+
+https://github.com/pandas-dev/pandas
+https://github.com/urllib3/urllib3
+https://github.com/psf/requests
+https://github.com/simplejson/simplejson
+https://docs.python.org/3/library/json.html
+https://docs.python.org/3/library/os.html
+https://docs.python.org/3/library/fnmatch.html
+https://docs.python.org/3/library/time.html
+https://docs.python.org/3/library/datetime.html
+https://docs.python.org/3/library/ast.html
+https://docs.python.org/3/library/textwrap.html
+https://docs.python.org/3/library/subprocess.html
+https://github.com/wention/BeautifulSoup4
+https://github.com/rails/execjs
+https://github.com/numpy/numpy
+https://github.com/matplotlib/matplotlib
+https://github.com/psycopg/psycopg2
+https://github.com/fxsjy/jieba
+https://github.com/amueller/word_cloud
+https://github.com/mozillazg/python-pinyin
+https://scikit-learn.org/stable/modules/generated/sklearn.feature_extraction.text.TfidfVectorizer.html
